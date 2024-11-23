@@ -528,7 +528,7 @@ export default function Home() {
                 className="text-5xl text-white font-bold mb-10"
                 style={{ userSelect: "none" }}
               >
-                Don't forget your semicolon();
+                Dont forget your semicolon();
               </h3>
               {/* Menambahkan div container dengan flex dan gap untuk button */}
               <div className="flex justify-center gap-4">
