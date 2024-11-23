@@ -113,7 +113,7 @@ export default function Hero() {
 
             {/* Description */}
             <div className="description w-full mt-8 md:mt-16 text-gray-500 md:text-xl text-xl" style={{ userSelect: "none" }}>
-              Here's My Social Media.
+              Here&apos;s My Social Media.
               <div className="flex flex-wrap justify-center mt-4">
               <Link className="mb-6" href="comingsoon.html" target="_blank" id="whatsapp-link">
                 <span className="border border-black text-black px-5 py-3 rounded-full mx-1 my-4 hover:bg-black hover:text-white hover:scale-[1.1] ease-in-out duration-300 text-xs" style={{ userSelect: "none" }}>
