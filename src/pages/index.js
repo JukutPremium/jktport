@@ -289,6 +289,7 @@ export default function Home() {
                       "Tailwind",
                       "Bootstrap 5",
                       "Anime.js",
+                      "discord.js",
                       "GSAP",
                       "typed.js",
                       "Figma",
