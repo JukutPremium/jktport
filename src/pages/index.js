@@ -377,6 +377,24 @@ export default function Home() {
                       height={480}
                     />
                   </div>
+                  <div className="md:col-span-4 h-[250px] sm:h-[300px] md:h-[480px] w-full">
+                    <Image
+                      src="/image12.png"
+                      alt="Gallery image 4"
+                      className="gallery-image object-cover hover:grayscale-0 grayscale transition-all duration-300 ease-in-out mx-auto w-full h-full"
+                      width={800}
+                      height={480}
+                    />
+                  </div>
+                  <div className="md:col-span-8 h-[250px] sm:h-[300px] md:h-[480px] w-full">
+                    <Image
+                      src="/image11.png"
+                      alt="Gallery image 3"
+                      className="gallery-image object-cover hover:grayscale-0 grayscale transition-all duration-300 ease-in-out mx-auto w-full h-full"
+                      width={800}
+                      height={480}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -492,7 +510,7 @@ export default function Home() {
                 <div className="flex flex-col">
                   <div className="relative h-[250px] sm:h-[300px] md:h-[800px]">
                     <Image
-                      src="/image1.png"
+                      src="/image11.png"
                       alt="Project image"
                       className="object-cover hover:grayscale-0 grayscale transition-all duration-300 w-full h-full"
                       width={800}
@@ -501,8 +519,38 @@ export default function Home() {
                   </div>
                   <div className="flex mt-4 justify-between">
                     <div className="px-2 py-1 w-32 text-center border border-black cursor-pointer hover:bg-[#010203] hover:text-white ease-in-out duration-300">
+                      <Link href="https://werksasurartstudio.vercel.app" style={{ userSelect: "none" }}>See project.</Link>
+                    </div>
+                    <div className="technology space-x-2 hidden lg:flex">
+                      {["HTML", "CSS", "JavaScript", "Tailwind", "GSAP"].map(
+                        (tech) => (
+                          <div
+                            key={tech}
+                            className="px-2 py-1 text-center border border-black"
+                          >
+                            {tech}
+                          </div>
+                        )
+                      )}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex flex-col">
+                  <div className="relative h-[250px] sm:h-[300px] md:h-[800px]">
+                    <Image
+                      src="/image1.png"
+                      alt="Project image"
+                      className="object-cover hover:grayscale-0 grayscale transition-all duration-300 w-full h-full"
+                      width={800}
+                      height={480}
+                    />
+                  </div>
+                  <div className="flex my-4 justify-between">
+                    <div className="px-2 py-1 w-32 text-center border border-black cursor-pointer hover:bg-[#010203] hover:text-white ease-in-out duration-300">
                       <Link href="https://jukutpremium.github.io/CoffeeZone/" style={{ userSelect: "none" }}>See project.</Link>
                     </div>
+
                     <div className="technology space-x-2 hidden lg:flex">
                       {["HTML", "CSS", "JavaScript", "Bootstrap 5"].map(
                         (tech) => (
@@ -517,6 +565,8 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+
+                
               </div>
             </div>
           </div>
