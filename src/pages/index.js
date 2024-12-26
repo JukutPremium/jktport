@@ -517,7 +517,7 @@ export default function Home() {
                       height={480}
                     />
                   </div>
-                  <div className="flex mt-4 justify-between">
+                  <div className="flex my-4 justify-between">
                     <div className="px-2 py-1 w-32 text-center border border-black cursor-pointer hover:bg-[#010203] hover:text-white ease-in-out duration-300">
                       <Link href="https://werksasurartstudio.vercel.app" style={{ userSelect: "none" }}>See project.</Link>
                     </div>
@@ -546,7 +546,7 @@ export default function Home() {
                       height={480}
                     />
                   </div>
-                  <div className="flex my-4 justify-between">
+                  <div className="flex mt-4 justify-between">
                     <div className="px-2 py-1 w-32 text-center border border-black cursor-pointer hover:bg-[#010203] hover:text-white ease-in-out duration-300">
                       <Link href="https://jukutpremium.github.io/CoffeeZone/" style={{ userSelect: "none" }}>See project.</Link>
                     </div>
@@ -565,8 +565,6 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                
               </div>
             </div>
           </div>
