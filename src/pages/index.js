@@ -388,8 +388,35 @@ export default function Home() {
                   </div>
                   <div className="md:col-span-8 h-[250px] sm:h-[300px] md:h-[480px] w-full">
                     <Image
-                      src="/image11.png"
+                      src="/image15.png"
                       alt="Gallery image 3"
+                      className="gallery-image object-cover hover:grayscale-0 grayscale transition-all duration-300 ease-in-out mx-auto w-full h-full"
+                      width={800}
+                      height={480}
+                    />
+                  </div>
+                  <div className="md:col-span-8 h-[250px] sm:h-[300px] md:h-[480px] w-full">
+                    <Image
+                      src="/image13.png"
+                      alt="Gallery image 3"
+                      className="gallery-image object-cover hover:grayscale-0 grayscale transition-all duration-300 ease-in-out mx-auto w-full h-full"
+                      width={800}
+                      height={480}
+                    />
+                  </div>
+                  <div className="md:col-span-4 h-[250px] sm:h-[300px] md:h-[480px] w-full">
+                    <Image
+                      src="/image11.png"
+                      alt="Gallery image 4"
+                      className="gallery-image object-cover hover:grayscale-0 grayscale transition-all duration-300 ease-in-out mx-auto w-full h-full"
+                      width={800}
+                      height={480}
+                    />
+                  </div>
+                  <div className="md:col-span-12 h-[250px] sm:h-[300px] md:h-[480px] w-full">
+                    <Image
+                      src="/image14.png"
+                      alt="Gallery image 4"
                       className="gallery-image object-cover hover:grayscale-0 grayscale transition-all duration-300 ease-in-out mx-auto w-full h-full"
                       width={800}
                       height={480}
@@ -510,7 +537,7 @@ export default function Home() {
                 <div className="flex flex-col">
                   <div className="relative h-[250px] sm:h-[300px] md:h-[800px]">
                     <Image
-                      src="/image11.png"
+                      src="/image14.png"
                       alt="Project image"
                       className="object-cover hover:grayscale-0 grayscale transition-all duration-300 w-full h-full"
                       width={800}
