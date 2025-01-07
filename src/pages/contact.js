@@ -160,7 +160,7 @@ export default function Hero() {
 
             <br />
 
-            <Link href="https://github.com/JukutPremium" className="nav-link uppercase mt-5 text-sm font-semibold" style={{ userSelect: "none" }}>
+            <Link href="/works" className="nav-link uppercase mt-5 text-sm font-semibold" style={{ userSelect: "none" }}>
 
               See My Project
 

@@ -318,7 +318,7 @@ export default function Home() {
                 </div>
                 <br />
                 <a
-                  href="#project"
+                  href="/works"
                   className="nav-link uppercase mt-5 text-sm font-semibold"
                   style={{ userSelect: "none" }}
                 >
