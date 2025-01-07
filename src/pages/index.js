@@ -203,18 +203,18 @@ export default function Home() {
                 — Web Developer | Designer —
               </p>
               <div className="flex flex-col md:flex-row justify-center items-center gap-5 pt-5">
-                <a
+                <Link
                   href="comingsoon.html"
                   className="flex items-center px-6 py-3 bg-white hover:scale-[1.08] hover:bg-[#010203] border border-black hover:text-white duration-300" style={{ userSelect: "none" }}
                 >
                   Download Resume
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#about"
                   className="flex items-center px-6 py-3 bg-white hover:scale-[1.08] hover:bg-[#010203] border border-black hover:text-white duration-300" style={{ userSelect: "none" }}
                 >
                   Start Explore
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -317,13 +317,13 @@ export default function Home() {
                   </div>
                 </div>
                 <br />
-                <a
+                <Link
                   href="/works"
                   className="nav-link uppercase mt-5 text-sm font-semibold"
                   style={{ userSelect: "none" }}
                 >
                   See My Project
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -465,7 +465,7 @@ export default function Home() {
                   </div>
                   <div className="flex mt-4 justify-between">
                     <div className="px-2 py-1 w-32 text-center border border-black cursor-pointer hover:bg-[#010203] hover:text-white ease-in-out duration-300">
-                      <a href="https://jukutpremium.github.io/Penglipuran/" style={{ userSelect: "none" }}>See project.</a>
+                      <Link href="https://jukutpremium.github.io/Penglipuran/" style={{ userSelect: "none" }}>See project.</Link>
                     </div>
                     <div className="technology space-x-2 hidden lg:flex">
                       {["HTML", "CSS", "JavaScript", "Bootstrap 5", "GSAP", "Typed.js", "Anime.js"].map(
