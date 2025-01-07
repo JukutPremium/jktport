@@ -74,7 +74,7 @@ export default function Works() {
         });
 
         var welcomeTyped = new Typed("#welcome", {
-            strings: ['My Works.'],
+            strings: ['Works.'],
             typeSpeed: 150,
             backSpeed: 150,
             showCursor: false,
