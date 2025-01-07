@@ -37,7 +37,7 @@ const ProjectCard = ({ project, isFeatured = false }) => {
     );
 };
 
-export default function works() {
+export default function Works() {
     const [projects, setProjects] = useState([]);
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
