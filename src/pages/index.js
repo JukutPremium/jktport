@@ -133,6 +133,11 @@ export default function Home() {
         <div className="hidden md:flex nav font-semibold text-lg flex-1 justify-center">
           <ul className="flex items-center space-x-10">
             <li>
+              <Link href="/" className="nav-link" style={{ userSelect: "none" }}>
+                Home
+              </Link>
+            </li>
+            <li>
               <Link href="#about" className="nav-link" style={{ userSelect: "none" }}>
                 About
               </Link>
@@ -143,8 +148,8 @@ export default function Home() {
               </Link>
             </li>
             <li>
-              <Link href="#project" className="nav-link" style={{ userSelect: "none" }}>
-                Project
+              <Link href="/works" className="nav-link" style={{ userSelect: "none" }}>
+                Works
               </Link>
             </li>
           </ul>
@@ -162,13 +167,16 @@ export default function Home() {
       <div id="mobile-menu" className="md:hidden fixed inset-0 bg-white z-40">
         <ul className="flex flex-col items-center space-y-4 py-8 mt-16">
           <li className="w-full text-center">
+            <Link href="/" className="mobile-link block w-full py-4 hover:bg-gray-100" style={{ userSelect: "none" }}>Home</Link>
+          </li>
+          <li className="w-full text-center">
             <Link href="#about" className="mobile-link block w-full py-4 hover:bg-gray-100" style={{ userSelect: "none" }}>About</Link>
           </li>
           <li className="w-full text-center">
             <Link href="#gallery" className="mobile-link block w-full py-4 hover:bg-gray-100" style={{ userSelect: "none" }}>Gallery</Link>
           </li>
           <li className="w-full text-center">
-            <Link href="#project" className="mobile-link block w-full py-4 hover:bg-gray-100" style={{ userSelect: "none" }}>Project</Link>
+            <Link href="/works" className="mobile-link block w-full py-4 hover:bg-gray-100" style={{ userSelect: "none" }}>Works</Link>
           </li>
           <li className="w-full text-center px-4 mt-4">
             <button className="mobile-link bg-[#010203] px-9 py-2 text-white hover:scale-[1.1] ease-in-out duration-300 w-full">
@@ -428,7 +436,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="py-5 bg-white" id="project">
+        {/* <section className="py-5 bg-white" id="project">
           <div className="mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col">
               <div
@@ -595,7 +603,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <footer className="w-full h-screen bg-[#010203] pt-28">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center">

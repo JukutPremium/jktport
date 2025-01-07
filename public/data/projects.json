@@ -1,0 +1,44 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "Werksa Sur Art Studio",
+        "image": "/image14.png",
+        "url": "https://werksasurartstudio.vercel.app",
+        "technologies": ["HTML", "CSS", "JavaScript", "Tailwind", "GSAP"],
+        "featured": true
+      },
+      {
+        "id": 2,
+        "title": "Penglipuran",
+        "image": "/image4.png",
+        "url": "https://jukutpremium.github.io/Penglipuran/",
+        "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap 5", "GSAP", "Typed.js", "Anime.js"],
+        "featured": false
+      },
+      {
+        "id": 3,
+        "title": "Coffee Zone",
+        "image": "/image1.png",
+        "url": "https://jukutpremium.github.io/CoffeeZone/",
+        "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap 5"],
+        "featured": false
+      },
+      {
+        "id": 4,
+        "title": "Ezzy Hotel",
+        "image": "/image2.png",
+        "url": "https://jukutpremium.github.io/Ezzy-Hotel/",
+        "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap 5"],
+        "featured": false
+      },
+      {
+        "id": 5,
+        "title": "Nyarik Kopi",
+        "image": "/image3.png",
+        "url": "https://jukutpremium.github.io/Nyarik-Kopi/",
+        "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap 5", "Anime.js", "GSAP"],
+        "featured": false
+      }
+    ]
+  }
