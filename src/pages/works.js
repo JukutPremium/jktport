@@ -167,12 +167,12 @@ export default function Works() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/index#about" className="nav-link" style={{ userSelect: "none" }}>
+                            <Link href="/#about" className="nav-link" style={{ userSelect: "none" }}>
                                 About
                             </Link>
                         </li>
                         <li>
-                            <Link href="/index#gallery" className="nav-link" style={{ userSelect: "none" }}>
+                            <Link href="/#gallery" className="nav-link" style={{ userSelect: "none" }}>
                                 Gallery
                             </Link>
                         </li>
